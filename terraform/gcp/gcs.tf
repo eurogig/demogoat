@@ -14,6 +14,7 @@ resource "google_storage_bucket" "terragoat_website" {
     team                 = "platform"
     yor_trace            = "55ae338a-bad6-4f83-b655-1e9930181063"
   }
+  uniform_bucket_level_access = true
 }
 
 resource "google_storage_bucket_iam_binding" "allow_public_read" {
