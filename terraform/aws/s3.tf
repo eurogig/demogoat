@@ -54,6 +54,7 @@ resource "aws_s3_bucket" "financials" {
   tags = {
     Name                 = "${local.resource_prefix.value}-financials"
     Environment          = local.resource_prefix.value
+    steve                = "giguere"
     git_commit           = "0468bf147ece4e3f9c72707c02c8bc19aa612071"
     git_file             = "terraform/aws/s3.tf"
     git_last_modified_at = "2021-06-17 14:06:28"
