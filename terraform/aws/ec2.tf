@@ -29,6 +29,7 @@ EOF
     level                = "production"
     pci-dss              = "true"
     team                 = "platform"
+    steve                = "devsecon"    
     yor_trace            = "263c695e-c525-4b3a-a8ca-58bc6504cace"
   }
 }
