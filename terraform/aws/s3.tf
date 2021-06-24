@@ -121,6 +121,13 @@ resource "aws_s3_bucket" "data_science" {
     team                 = "platform"
     yor_trace            = "36f0613b-a7c9-4476-9977-6a498b5ec29f"
   }
+  server_side_encryption_configuration {
+    rule {
+      apply_server_side_encryption_by_default {
+        sse_algorithm = "AES256"
+      }
+    }
+  }
 }
 
 resource "aws_s3_bucket" "logs" {
