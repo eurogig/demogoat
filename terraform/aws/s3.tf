@@ -17,7 +17,7 @@ resource "aws_s3_bucket" "data" {
     git_org              = "eurogig"
     git_repo             = "demogoat"
     level                = "production"
-    pci-dss              = "true"
+    pci-dss              = "false"
     team                 = "platform"
     yor_trace            = "6f4ad230-4e26-4e2f-afdf-a848aa73b9bb"
   }
