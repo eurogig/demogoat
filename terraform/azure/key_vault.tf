@@ -18,13 +18,13 @@ resource "azurerm_key_vault" "example" {
   tags = {
     environment          = var.environment
     terragoat            = true
-    git_commit           = "81738b80d571fa3034633690d13ffb460e1e7dea"
+    git_commit           = "2384d4d87f0d949f4e7c31718827a92ad9fdc27d"
     git_file             = "terraform/azure/key_vault.tf"
-    git_last_modified_at = "2020-06-19 21:14:50"
-    git_last_modified_by = "Adin.Ermie@outlook.com"
-    git_modifiers        = "Adin.Ermie/nimrodkor"
+    git_last_modified_at = "2021-06-17 14:08:57"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
     git_org              = "eurogig"
-    git_repo             = "terragoat"
+    git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
     team                 = "interfaces"
@@ -46,13 +46,13 @@ resource "azurerm_key_vault_key" "generated" {
     "wrapKey",
   ]
   tags = {
-    git_commit           = "898d5beaec7ffdef6df0d7abecff407362e2a74e"
+    git_commit           = "2384d4d87f0d949f4e7c31718827a92ad9fdc27d"
     git_file             = "terraform/azure/key_vault.tf"
-    git_last_modified_at = "2020-06-17 12:59:55"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
+    git_last_modified_at = "2021-06-17 14:08:57"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
     git_org              = "eurogig"
-    git_repo             = "terragoat"
+    git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
     team                 = "platform"
@@ -65,13 +65,13 @@ resource "azurerm_key_vault_secret" "secret" {
   name         = "terragoat-secret-${var.environment}"
   value        = random_string.password.result
   tags = {
-    git_commit           = "f8ff847bb69370bbe03b3d2b70db586ff6c867fc"
+    git_commit           = "2384d4d87f0d949f4e7c31718827a92ad9fdc27d"
     git_file             = "terraform/azure/key_vault.tf"
-    git_last_modified_at = "2020-06-19 21:16:08"
-    git_last_modified_by = "Adin.Ermie@outlook.com"
-    git_modifiers        = "Adin.Ermie/nimrodkor"
+    git_last_modified_at = "2021-06-17 14:08:57"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
     git_org              = "eurogig"
-    git_repo             = "terragoat"
+    git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
     team                 = "interfaces"

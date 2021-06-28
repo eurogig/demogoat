@@ -9,13 +9,13 @@ resource "azurerm_managed_disk" "example" {
     enabled = false
   }
   tags = {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "2384d4d87f0d949f4e7c31718827a92ad9fdc27d"
     git_file             = "terraform/azure/storage.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
+    git_last_modified_at = "2021-06-17 14:08:57"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
     git_org              = "eurogig"
-    git_repo             = "terragoat"
+    git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
     team                 = "platform"
@@ -51,13 +51,13 @@ resource "azurerm_storage_account" "example" {
     }
   }
   tags = {
-    git_commit           = "81738b80d571fa3034633690d13ffb460e1e7dea"
+    git_commit           = "2384d4d87f0d949f4e7c31718827a92ad9fdc27d"
     git_file             = "terraform/azure/storage.tf"
-    git_last_modified_at = "2020-06-19 21:14:50"
-    git_last_modified_by = "Adin.Ermie@outlook.com"
-    git_modifiers        = "Adin.Ermie/nimrodkor"
+    git_last_modified_at = "2021-06-17 14:08:57"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
     git_org              = "eurogig"
-    git_repo             = "terragoat"
+    git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
     team                 = "interfaces"

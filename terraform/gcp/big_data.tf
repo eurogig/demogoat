@@ -25,13 +25,13 @@ resource google_bigquery_dataset "dataset" {
     role          = "READER"
   }
   labels = {
-    git_commit           = "83661b5e88dd3768c10dbcfa2050c04d85b62fa8"
+    git_commit           = "bea73fff3964500456bae8521afa84815c41f921"
     git_file             = "terraform__gcp__big_data_tf"
-    git_last_modified_at = "2020-07-09-13-34-36"
-    git_last_modified_by = "nimrodkor"
-    git_modifiers        = "nimrodkor"
+    git_last_modified_at = "2021-06-17-14-09-33"
+    git_last_modified_by = "eurogig"
+    git_modifiers        = "eurogig"
     git_org              = "eurogig"
-    git_repo             = "terragoat"
+    git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
     team                 = "platform"
