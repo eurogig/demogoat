@@ -310,6 +310,9 @@ resource "aws_s3_bucket" "flowbucket" {
     team                 = "platform"
     yor_trace            = "a210c4ce-e183-48c3-9b83-72d8cac6fdd2"
   }
+  versioning {
+    enabled = true
+  }
 }
 
 output "ec2_public_dns" {
