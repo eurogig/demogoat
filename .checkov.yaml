@@ -1,0 +1,10 @@
+branch: main
+check:
+- BLAH
+directory:
+- .
+download-external-modules: false
+evaluate-variables: true
+external-modules-download-path: .external_modules
+framework: all
+output: cli
