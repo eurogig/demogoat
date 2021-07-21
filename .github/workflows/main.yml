@@ -35,6 +35,8 @@ jobs:
       - name: Test with Checkov
         id: checkov
         uses: bridgecrewio/checkov-action@master
+        env: 
+          IMPORTANT_SECRET: ${{ secrets.IMPORTANT_SECRET }}
         with:
           directory: terraform
           framework: terraform 
