@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "example" {
     git_last_modified_at = "2021-06-17 14:08:57"
     git_last_modified_by = "eurogig@gmail.com"
     git_modifiers        = "eurogig"
-    git_org              = "eurogig"
+    git_org              = "metahertz"
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"

@@ -30,7 +30,7 @@ resource google_bigquery_dataset "dataset" {
     git_last_modified_at = "2021-06-17-14-09-33"
     git_last_modified_by = "eurogig"
     git_modifiers        = "eurogig"
-    git_org              = "eurogig"
+    git_org              = "metahertz"
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"

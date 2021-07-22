@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "data" {
     git_modifiers        = "eurogig"
     git_org              = "eurogig"
     git_repo             = "demogoat"
-    level                = "not_production"
+    level                = "production"
     pci-dss              = "true"
     team                 = "seceng"
     yor_trace            = "6f4ad230-4e26-4e2f-afdf-a848aa73b9bb"
@@ -40,6 +40,7 @@ resource "aws_s3_bucket_object" "data_object" {
     pci-dss              = "true"
     team                 = "seceng"
     yor_trace            = "c9f490f8-7d0f-42c3-b24a-fa6b18524295"
+    level                = "production"
   }
 }
 
@@ -63,6 +64,7 @@ resource "aws_s3_bucket" "financials" {
     pci-dss              = "true"
     team                 = "seceng"
     yor_trace            = "f2332869-0a8f-473a-9bda-0baa868fc395"
+    level                = "production"
   }
 
 }
