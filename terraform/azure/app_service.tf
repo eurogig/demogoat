@@ -17,7 +17,7 @@ resource azurerm_app_service_plan "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "platform"
+    team                 = "seceng"
     yor_trace            = "00420375-d814-4cfa-a67d-05b915f57d96"
   }
 }
@@ -41,7 +41,7 @@ resource azurerm_app_service "app-service1" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "7b393baa-0040-48e0-ace5-fcbb2e686061"
   }
 }
@@ -66,7 +66,7 @@ resource azurerm_app_service "app-service2" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "5e437d93-2763-4e0c-96fe-facf2949177c"
   }
 }

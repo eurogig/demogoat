@@ -13,7 +13,7 @@ resource aws_ecr_repository "repository" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "platform"
+    team                 = "seceng"
     yor_trace            = "2db88877-4ecc-4235-9b0a-76bad06dcd10"
   }
 }

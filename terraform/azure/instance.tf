@@ -38,7 +38,7 @@ resource azurerm_linux_virtual_machine "linux_machine" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "platform"
+    team                 = "seceng"
     yor_trace            = "aed43de0-5d5a-4430-8bc7-2b1070bdd916"
   }
 }
@@ -75,7 +75,7 @@ resource azurerm_windows_virtual_machine "windows_machine" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "platform"
+    team                 = "seceng"
     yor_trace            = "4909c162-0c45-440e-8a73-54503736b894"
   }
 }

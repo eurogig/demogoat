@@ -11,7 +11,7 @@ resource "google_storage_bucket" "terragoat_website" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "platform"
+    team                 = "seceng"
     yor_trace            = "55ae338a-bad6-4f83-b655-1e9930181063"
   }
 }

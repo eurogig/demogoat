@@ -34,7 +34,7 @@ resource google_bigquery_dataset "dataset" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "platform"
+    team                 = "seceng"
     yor_trace            = "a43a968e-bb7d-4d27-93b1-656a16729dfc"
   }
 }
