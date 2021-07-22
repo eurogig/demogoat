@@ -30,7 +30,6 @@ jobs:
         uses: bridgecrewio/yor-action@main
         with:
           config_file: tag-groups.yaml
-          log_level: INFO
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
