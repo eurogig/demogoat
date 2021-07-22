@@ -26,7 +26,7 @@ EOF
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "cc85f8d6-c83e-4685-aae2-ae51b742cd2b"
   }
 }
@@ -58,7 +58,7 @@ resource "aws_lambda_function" "analysis_lambda" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "a650bab3-003c-4974-9c80-1a64fca28b98"
   }
 }

@@ -11,7 +11,7 @@ resource "azurerm_resource_group" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "c1ff7bd1-062a-4002-8391-f77501ed336e"
   }
 }

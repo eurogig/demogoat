@@ -17,7 +17,7 @@ resource "aws_neptune_cluster" "default" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "0e3647af-8650-4e36-8f2e-204331e6d141"
   }
 }
@@ -39,7 +39,7 @@ resource "aws_neptune_cluster_instance" "default" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "bfff2af2-17d8-4619-b844-14f16e6ecdf4"
   }
 }

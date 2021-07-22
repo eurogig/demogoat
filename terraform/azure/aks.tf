@@ -32,7 +32,7 @@ resource azurerm_kubernetes_cluster "k8s_cluster" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "15ebedc7-fccb-457a-82c8-18c73d867f3b"
   }
 }

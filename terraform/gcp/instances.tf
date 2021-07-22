@@ -31,7 +31,7 @@ resource google_compute_instance "server" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "08834a4d-a9e6-4023-b299-0e7a7751517f"
   }
 }
@@ -48,7 +48,7 @@ resource google_compute_disk "unencrypted_disk" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "39ec72c9-06a3-4e84-8423-0c534ded2ebb"
   }
 }

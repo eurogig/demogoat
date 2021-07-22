@@ -13,7 +13,7 @@ resource "azurerm_virtual_network" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "6a4dbb61-6a9b-48d0-a821-288932346475"
   }
 }
@@ -45,7 +45,7 @@ resource "azurerm_network_interface" "ni_linux" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "f353661d-9793-46a7-8dd0-1102a6fc5506"
   }
 }
@@ -70,7 +70,7 @@ resource "azurerm_network_interface" "ni_win" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "d9c1f249-025c-4f7c-a834-410668c12671"
   }
 }
@@ -113,7 +113,7 @@ resource azurerm_network_security_group "bad_sg" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "4c9ceffd-a877-4816-9ffe-34120a07437e"
   }
 }
@@ -132,7 +132,7 @@ resource azurerm_network_watcher "network_watcher" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "ce985d60-7885-4125-a5fe-72e31f13433d"
   }
 }
@@ -158,6 +158,6 @@ resource azurerm_network_watcher_flow_log "flow_log" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
   }
 }

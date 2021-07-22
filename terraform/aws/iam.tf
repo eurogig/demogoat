@@ -14,7 +14,7 @@ resource "aws_iam_user" "user" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "cb7705f6-231b-4624-948d-3c447ec77c27"
   }
 

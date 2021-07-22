@@ -32,7 +32,7 @@ resource "aws_db_instance" "default" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "2092be6d-c2f3-4006-955b-6c5d8fe61d41"
   }
 
@@ -60,7 +60,7 @@ resource "aws_db_option_group" "default" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "218563fd-cc98-4847-b185-bae71f4c4249"
   }
 }
@@ -94,7 +94,7 @@ resource "aws_db_parameter_group" "default" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "1bb33897-87cf-4aca-b251-a1f4fd5be4c0"
   }
 }
@@ -116,7 +116,7 @@ resource "aws_db_subnet_group" "default" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "ef3b7caf-cc0d-4ad1-924a-9b4e627f84ec"
   }
 }
@@ -137,7 +137,7 @@ resource "aws_security_group" "default" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "1e429f4c-98a2-488f-9079-d2a7e9313a9b"
   }
 }
@@ -175,7 +175,7 @@ resource "aws_iam_instance_profile" "ec2profile" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "3497fac7-1514-42f5-b014-b9caf1ce586d"
   }
 }
@@ -212,7 +212,7 @@ EOF
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "766afcb6-75a1-4a2b-9d51-dfd37af6d892"
   }
 }
@@ -423,7 +423,7 @@ EOF
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "e24f7d51-7d45-4a29-98e7-0ef142fd227d"
   }
 }

@@ -24,7 +24,7 @@ resource "aws_elasticsearch_domain" "monitoring-framework" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "41517b54-9188-4cbc-a45b-f715ebab06db"
   }
 }

@@ -13,7 +13,7 @@ resource "aws_kms_key" "logs_key" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "bdb1cda7-3e9c-4c88-a3c8-fc97f8005cfd"
   }
 }

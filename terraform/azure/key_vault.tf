@@ -27,7 +27,7 @@ resource "azurerm_key_vault" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "9ca6ab41-57d1-4141-8606-2777eea8a41a"
   }
 }
@@ -55,7 +55,7 @@ resource "azurerm_key_vault_key" "generated" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "f4b0970c-3c48-4d44-ae55-0d0b2dfb1a73"
   }
 }
@@ -74,7 +74,7 @@ resource "azurerm_key_vault_secret" "secret" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "15d1d36a-9c94-41ba-9a32-a8b5a7055c11"
   }
 }

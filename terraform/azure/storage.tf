@@ -18,7 +18,7 @@ resource "azurerm_managed_disk" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "98581ad1-7a7d-4758-b70b-72416d4db48e"
   }
 }
@@ -60,7 +60,7 @@ resource "azurerm_storage_account" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "interfaces"
+    team                 = "seceng"
     yor_trace            = "45164691-259f-4b6b-9bd6-899c6ab4321d"
   }
 }
