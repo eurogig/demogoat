@@ -34,11 +34,4 @@ tag_groups:
                   git_org:
                     - milkana
                     - nofar
-                    - nimrodkor  
-  - name: compliance
-    value:
-      default: none 
-    filters:
-      tags:
-        pci_dss: true
-      directory: terraform/azure
+                    - nimrodkor
