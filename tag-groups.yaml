@@ -10,7 +10,6 @@ tag_groups:
                   git_modifiers:
                     - eurogig
                     - tronxd
-                    - mattj
             - platform:
                 tags:
                   git_modifiers:
@@ -28,7 +27,6 @@ tag_groups:
                   git_org:
                     - eurogig
                     - tronxd
-                    - mattj
             - operations:
                 tags:
                   git_org:

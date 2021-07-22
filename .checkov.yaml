@@ -1,6 +1,7 @@
 branch: main
 check:
 - CUSTOM_TAG_1
+- CUSTOM_TAG_2
 directory:
 - .
 download-external-modules: false

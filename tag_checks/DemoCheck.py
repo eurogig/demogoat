@@ -21,9 +21,10 @@ class CustomTag1(BaseResourceCheck):
         :return: <CheckResult>
         """
         if 'tags' in conf.keys():
-            if conf['tags'][0].keys():
-                if conf['tags'][0]['level'] != "production":
-                    return CheckResult.FAILED
+            for key in conf['tags'][0].keys():
+                if key == "level":
+                    if conf['tags'][0]['level'] != "production":
+                        return CheckResult.FAILED
         return CheckResult.PASSED
 
 
