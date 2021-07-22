@@ -27,7 +27,10 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run yor action
-        uses: bridgecrewio/yor-action@main      
+        uses: bridgecrewio/yor-action@main
+        with:
+          config_file: tag-groups.yaml
+          log_level: INFO
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
@@ -35,8 +38,6 @@ jobs:
       - name: Test with Checkov
         id: checkov
         uses: bridgecrewio/checkov-action@master
-        env: 
-          IMPORTANT_SECRET: ${{ secrets.IMPORTANT_SECRET }}
         with:
           directory: terraform
           framework: terraform 
