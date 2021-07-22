@@ -25,7 +25,7 @@ resource "azurerm_sql_server" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "24a239a5-d253-45dd-9768-eca5fa98df34"
   }
 }
@@ -70,7 +70,7 @@ resource "azurerm_mysql_server" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "cc9ca7ab-8314-4e78-aacd-b2b4841a1893"
   }
 }
@@ -98,7 +98,7 @@ resource "azurerm_postgresql_server" "example" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "d74f0042-ff20-49a5-9053-88716fb524c6"
   }
 }

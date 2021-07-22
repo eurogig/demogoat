@@ -36,7 +36,7 @@ resource "aws_elb" "weblb" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "9a28fb46-9b38-46c6-9dea-751bf1bead1c"
   }
 }

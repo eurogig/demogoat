@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "data" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "6f4ad230-4e26-4e2f-afdf-a848aa73b9bb"
   }
 }
@@ -39,7 +39,7 @@ resource "aws_s3_bucket_object" "data_object" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "c9f490f8-7d0f-42c3-b24a-fa6b18524295"
   }
 }
@@ -63,7 +63,7 @@ resource "aws_s3_bucket" "financials" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "f2332869-0a8f-473a-9bda-0baa868fc395"
   }
 
@@ -90,7 +90,7 @@ resource "aws_s3_bucket" "operations" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "161fda2b-3219-4c6b-a12e-acfb97c75ce7"
   }
 
@@ -118,7 +118,7 @@ resource "aws_s3_bucket" "data_science" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "36f0613b-a7c9-4476-9977-6a498b5ec29f"
   }
 }
@@ -150,7 +150,7 @@ resource "aws_s3_bucket" "logs" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "655457e3-373e-4904-b0ab-a7673ffc2fb4"
   }
 }

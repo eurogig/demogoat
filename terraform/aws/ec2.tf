@@ -28,7 +28,7 @@ EOF
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "263c695e-c525-4b3a-a8ca-58bc6504cace"
   }
 }
@@ -49,7 +49,7 @@ resource "aws_ebs_volume" "web_host_storage" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "048ea563-3dc2-4827-8dfe-551d5e18f655"
   }
 }
@@ -69,7 +69,7 @@ resource "aws_ebs_snapshot" "example_snapshot" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "94267f2c-2cfc-4d04-b497-9775116dd8ac"
   }
 }
@@ -118,7 +118,7 @@ resource "aws_security_group" "web-node" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "f80f45fe-2955-4a6c-935d-8c6275fc6ffa"
   }
 }
@@ -138,7 +138,7 @@ resource "aws_vpc" "web_vpc" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "390a017f-8e8d-4ca5-97b0-80b7245c47b3"
   }
 }
@@ -160,7 +160,7 @@ resource "aws_subnet" "web_subnet" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "89f6c3ba-af18-478e-a761-24ece6683100"
   }
 }
@@ -182,7 +182,7 @@ resource "aws_subnet" "web_subnet2" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "2e3bbd42-179f-404f-b694-d0fdf9ac5f7f"
   }
 }
@@ -202,7 +202,7 @@ resource "aws_internet_gateway" "web_igw" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "21aec81e-5695-4ea3-86aa-f6ae95216576"
   }
 }
@@ -221,7 +221,7 @@ resource "aws_route_table" "web_rtb" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "511593fd-ed32-4b97-b253-f1a5b0db579e"
   }
 }
@@ -262,7 +262,7 @@ resource "aws_network_interface" "web-eni" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "9b9d8999-3bc0-4c05-8246-0096187c1ca9"
   }
 }
@@ -286,7 +286,7 @@ resource "aws_flow_log" "vpcflowlogs" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "0465fd5e-7220-4fd5-93f4-178f858df706"
   }
 }
@@ -307,7 +307,7 @@ resource "aws_s3_bucket" "flowbucket" {
     git_repo             = "demogoat"
     level                = "production"
     pci-dss              = "true"
-    team                 = "seceng"
+    team                 = "interfaces"
     yor_trace            = "a210c4ce-e183-48c3-9b83-72d8cac6fdd2"
   }
 }
