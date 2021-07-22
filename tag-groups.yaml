@@ -36,9 +36,9 @@ tag_groups:
                     - nofar
                     - nimrodkor  
   - name: compliance
-    tags:
-      - name: pci-dss
-        value:
-          default: true                 
-          filters:
-            directory: /Users/sgiguere/code/bridgecrew/terragoat/terraform/azure
+    value:
+      default: none 
+    filters:
+      tags:
+        pci_dss: true
+      directory: terraform/azure
