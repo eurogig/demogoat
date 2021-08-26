@@ -21,6 +21,9 @@ resource "aws_s3_bucket" "data" {
     team                 = "seceng"
     yor_trace            = "6f4ad230-4e26-4e2f-afdf-a848aa73b9bb"
   }
+  hosted_zone_id = "Z3BJ6K6RIION7M"
+  request_payer = "BucketOwner"
+  versioning = {"enabled": false, "mfa_delete": false}
 }
 
 resource "aws_s3_bucket_object" "data_object" {
