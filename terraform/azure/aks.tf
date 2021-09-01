@@ -33,6 +33,7 @@ resource azurerm_kubernetes_cluster "k8s_cluster" {
     level                = "production"
     pci-dss              = "true"
     team                 = "seceng"
+    nadog                = "awesome"
     yor_trace            = "15ebedc7-fccb-457a-82c8-18c73d867f3b"
   }
 }
