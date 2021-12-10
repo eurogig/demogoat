@@ -1,0 +1,11 @@
+branch: main
+check:
+- BAD_1337
+directory:
+- .
+download-external-modules: false
+evaluate-variables: true
+external-modules-download-path: .external_modules
+framework: all
+output: cli
+external-checks-dir: demo_bad_external_checks
